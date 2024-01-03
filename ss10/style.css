@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    /* flex: 1; */
+    flex-wrap: wrap;
+}
+.item {
+    height: 200px;
+    width: 200px;
+}
+
+.item-1 {
+    background-color: red;
+    /* flex: 1; */
+}
+.item-2 {
+    background-color: blue;
+    /* flex: 2; */
+}
+.item-3 {
+    background-color: green;
+    /* flex: 1; */
+}
