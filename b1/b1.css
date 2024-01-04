@@ -1,0 +1,25 @@
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
+
+.square-left, .square-right {
+    width: 100px;
+    height: 100px;
+    background-color: blue; /* Màu sắc của hình vuông */
+   
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red; /* Màu sắc của hình tròn */
+    border-radius: 50%; /* Để tạo hình tròn */
+}
+
+</head>
